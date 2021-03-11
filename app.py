@@ -9,10 +9,7 @@ import tensorflow as tf
 import tensorflow.keras
 from tensorflow.keras.callbacks import ModelCheckpoint
 from tensorflow.keras.callbacks import CSVLogger
-from keras.models import Sequential
-from keras.layers import Dense
 from sklearn.preprocessing import MinMaxScaler
-from sklearn.model_selection import train_test_split
 import pickle
 from eda_app import run_eda_app
 from ml_app import run_ml_app
